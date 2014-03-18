@@ -1,11 +1,8 @@
 {
   "name": "property_patch",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "smoother version of adding getters/setters to a JS object",
-  "main": "property_patch.js",
-  "dependencies": {
-    "chai": "~1.9.0"
-  },
+  "main": "property_patch",
   "devDependencies": {
     "mocha": "~1.18.0",
     "chai": "~1.9.0"
@@ -14,5 +11,6 @@
     "test": "mocha"
   },
   "author": "@BaseCase",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/BaseCase/property_patch"
 }
