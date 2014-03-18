@@ -51,7 +51,7 @@ Contrived example time!
 
 ```javascript
 function Foo() {
-  this.add_property('bar');
+  this.add_property('bar', 1);
 }
 
 Foo.prototype.get_bar = function() {
@@ -64,6 +64,8 @@ Foo.prototype.set_bar = function(val) {
 }
 ```
 
+### Using the property
+
 So notice the custom `get_bar` and `set_bar` methods. Because we defined the property 'bar' in the constructor, we can say stuff like this:
 
 ```javascript
@@ -71,6 +73,15 @@ var f = new Foo();
 f.bar = 5;
 f.bar; // === 10 (whoa!)
 f.bar = "hey"; // not allowed! throws an error!
+```
+
+### Default values
+
+Also, you can set an optional default value for a property you defined this way. In `Foo` up there, we set the default for `bar` to 1.
+
+```javascript
+var foo = new Foo();
+f.bar; // === 1
 ```
 
 Pretty neat, huh? Oh... Well, I thought it was cool. Don't be so negative all the time.
