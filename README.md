@@ -64,7 +64,7 @@ Foo.prototype.set_bar = function(val) {
 }
 ```
 
-So notice the custom `get_bar` and `get_foo` methods. Because we defined the property 'bar' in the constructor, we can say stuff like this:
+So notice the custom `get_bar` and `set_bar` methods. Because we defined the property 'bar' in the constructor, we can say stuff like this:
 
 ```javascript
 var f = new Foo();
