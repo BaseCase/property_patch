@@ -1,7 +1,7 @@
 {
   "name": "property_patch",
-  "version": "0.1.0",
-  "description": "smoother version of adding getters/setters to a JS object",
+  "version": "0.1.1",
+  "description": "smoother version of adding OOP-style getters/setters to a JS object",
   "main": "property_patch",
   "devDependencies": {
     "mocha": "~1.18.0",
